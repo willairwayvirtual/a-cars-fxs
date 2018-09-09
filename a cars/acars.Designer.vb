@@ -28,15 +28,15 @@ Partial Class acars
         Me.Label2 = New System.Windows.Forms.Label()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label39 = New System.Windows.Forms.Label()
+        Me.Label50 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label80 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
-        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label71 = New System.Windows.Forms.Label()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -81,7 +81,7 @@ Partial Class acars
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Location = New System.Drawing.Point(0, 123)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(809, 64)
+        Me.DataGridView1.Size = New System.Drawing.Size(809, 57)
         Me.DataGridView1.TabIndex = 4
         '
         'Button1
@@ -95,56 +95,56 @@ Partial Class acars
         Me.Button1.Text = "go"
         Me.Button1.UseVisualStyleBackColor = False
         '
-        'Label3
+        'Label39
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.BackColor = System.Drawing.Color.Lime
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(281, 206)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(51, 55)
-        Me.Label3.TabIndex = 6
-        Me.Label3.Text = "0"
+        Me.Label39.AutoSize = True
+        Me.Label39.BackColor = System.Drawing.Color.Lime
+        Me.Label39.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label39.Location = New System.Drawing.Point(281, 190)
+        Me.Label39.Name = "Label39"
+        Me.Label39.Size = New System.Drawing.Size(51, 55)
+        Me.Label39.TabIndex = 6
+        Me.Label39.Text = "0"
         '
-        'Label5
+        'Label50
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.BackColor = System.Drawing.Color.Lime
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(381, 206)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(51, 55)
-        Me.Label5.TabIndex = 8
-        Me.Label5.Text = "0"
+        Me.Label50.AutoSize = True
+        Me.Label50.BackColor = System.Drawing.Color.Lime
+        Me.Label50.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label50.Location = New System.Drawing.Point(381, 190)
+        Me.Label50.Name = "Label50"
+        Me.Label50.Size = New System.Drawing.Size(51, 55)
+        Me.Label50.TabIndex = 8
+        Me.Label50.Text = "0"
         '
         'Label6
         '
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.Color.Lime
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(438, 206)
+        Me.Label6.Location = New System.Drawing.Point(438, 190)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(37, 55)
         Me.Label6.TabIndex = 9
         Me.Label6.Text = ":"
         '
-        'Label8
+        'Label80
         '
-        Me.Label8.AutoSize = True
-        Me.Label8.BackColor = System.Drawing.Color.Lime
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(481, 206)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(51, 55)
-        Me.Label8.TabIndex = 11
-        Me.Label8.Text = "0"
+        Me.Label80.AutoSize = True
+        Me.Label80.BackColor = System.Drawing.Color.Lime
+        Me.Label80.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label80.Location = New System.Drawing.Point(481, 190)
+        Me.Label80.Name = "Label80"
+        Me.Label80.Size = New System.Drawing.Size(51, 55)
+        Me.Label80.TabIndex = 11
+        Me.Label80.Text = "0"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Lime
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(338, 206)
+        Me.Label4.Location = New System.Drawing.Point(338, 190)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(37, 55)
         Me.Label4.TabIndex = 12
@@ -154,7 +154,7 @@ Partial Class acars
         '
         Me.Button2.BackColor = System.Drawing.Color.LightSalmon
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(0, 293)
+        Me.Button2.Location = New System.Drawing.Point(0, 284)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(343, 51)
         Me.Button2.TabIndex = 13
@@ -165,7 +165,7 @@ Partial Class acars
         '
         Me.Button3.BackColor = System.Drawing.Color.Red
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(349, 293)
+        Me.Button3.Location = New System.Drawing.Point(348, 284)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(256, 51)
         Me.Button3.TabIndex = 14
@@ -176,39 +176,39 @@ Partial Class acars
         '
         Me.Button4.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(611, 293)
+        Me.Button4.Location = New System.Drawing.Point(611, 284)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(198, 51)
         Me.Button4.TabIndex = 15
         Me.Button4.Text = "save my Hours "
         Me.Button4.UseVisualStyleBackColor = False
         '
-        'Label7
+        'Label71
         '
-        Me.Label7.AutoSize = True
-        Me.Label7.BackColor = System.Drawing.Color.Red
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(120, 270)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(555, 20)
-        Me.Label7.TabIndex = 16
-        Me.Label7.Text = "Please put parking brake onAnd cut off your engine(s) before starting ACARS"
+        Me.Label71.AutoSize = True
+        Me.Label71.BackColor = System.Drawing.Color.Red
+        Me.Label71.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label71.Location = New System.Drawing.Point(120, 254)
+        Me.Label71.Name = "Label71"
+        Me.Label71.Size = New System.Drawing.Size(555, 20)
+        Me.Label71.TabIndex = 16
+        Me.Label71.Text = "Please put parking brake onAnd cut off your engine(s) before starting ACARS"
         '
         'acars
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Gray
-        Me.ClientSize = New System.Drawing.Size(813, 347)
-        Me.Controls.Add(Me.Label7)
+        Me.ClientSize = New System.Drawing.Size(813, 338)
+        Me.Controls.Add(Me.Label71)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.Label80)
         Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Label50)
+        Me.Controls.Add(Me.Label39)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Label2)
@@ -230,13 +230,13 @@ Partial Class acars
     Friend WithEvents Label2 As Label
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents Button1 As Button
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label5 As Label
+    Friend WithEvents Label39 As Label
+    Friend WithEvents Label50 As Label
     Friend WithEvents Label6 As Label
-    Friend WithEvents Label8 As Label
+    Friend WithEvents Label80 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
-    Friend WithEvents Label7 As Label
+    Friend WithEvents Label71 As Label
 End Class
