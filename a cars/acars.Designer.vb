@@ -29,16 +29,12 @@ Partial Class acars
         Me.Label2 = New System.Windows.Forms.Label()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Label39 = New System.Windows.Forms.Label()
-        Me.Label50 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label80 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
+        Me.StFlight = New System.Windows.Forms.Button()
+        Me.CompFlight = New System.Windows.Forms.Button()
+        Me.PauseFlight = New System.Windows.Forms.Button()
         Me.Label71 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.lblTimer = New System.Windows.Forms.Label()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -97,93 +93,38 @@ Partial Class acars
         Me.Button1.Text = "go"
         Me.Button1.UseVisualStyleBackColor = False
         '
-        'Label39
+        'StFlight
         '
-        Me.Label39.AutoSize = True
-        Me.Label39.BackColor = System.Drawing.Color.Lime
-        Me.Label39.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label39.Location = New System.Drawing.Point(281, 190)
-        Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(51, 55)
-        Me.Label39.TabIndex = 6
-        Me.Label39.Text = "0"
+        Me.StFlight.BackColor = System.Drawing.Color.LightSalmon
+        Me.StFlight.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.StFlight.Location = New System.Drawing.Point(0, 284)
+        Me.StFlight.Name = "StFlight"
+        Me.StFlight.Size = New System.Drawing.Size(343, 51)
+        Me.StFlight.TabIndex = 13
+        Me.StFlight.Text = "start  Flight"
+        Me.StFlight.UseVisualStyleBackColor = False
         '
-        'Label50
+        'CompFlight
         '
-        Me.Label50.AutoSize = True
-        Me.Label50.BackColor = System.Drawing.Color.Lime
-        Me.Label50.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label50.Location = New System.Drawing.Point(381, 190)
-        Me.Label50.Name = "Label50"
-        Me.Label50.Size = New System.Drawing.Size(51, 55)
-        Me.Label50.TabIndex = 8
-        Me.Label50.Text = "0"
+        Me.CompFlight.BackColor = System.Drawing.Color.Red
+        Me.CompFlight.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CompFlight.Location = New System.Drawing.Point(348, 284)
+        Me.CompFlight.Name = "CompFlight"
+        Me.CompFlight.Size = New System.Drawing.Size(256, 51)
+        Me.CompFlight.TabIndex = 14
+        Me.CompFlight.Text = "Complete Flight"
+        Me.CompFlight.UseVisualStyleBackColor = False
         '
-        'Label6
+        'PauseFlight
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.BackColor = System.Drawing.Color.Lime
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(438, 190)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(37, 55)
-        Me.Label6.TabIndex = 9
-        Me.Label6.Text = ":"
-        '
-        'Label80
-        '
-        Me.Label80.AutoSize = True
-        Me.Label80.BackColor = System.Drawing.Color.Lime
-        Me.Label80.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label80.Location = New System.Drawing.Point(481, 190)
-        Me.Label80.Name = "Label80"
-        Me.Label80.Size = New System.Drawing.Size(51, 55)
-        Me.Label80.TabIndex = 11
-        Me.Label80.Text = "0"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.BackColor = System.Drawing.Color.Lime
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(338, 190)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(37, 55)
-        Me.Label4.TabIndex = 12
-        Me.Label4.Text = ":"
-        '
-        'Button2
-        '
-        Me.Button2.BackColor = System.Drawing.Color.LightSalmon
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(0, 284)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(343, 51)
-        Me.Button2.TabIndex = 13
-        Me.Button2.Text = "start  Flight"
-        Me.Button2.UseVisualStyleBackColor = False
-        '
-        'Button3
-        '
-        Me.Button3.BackColor = System.Drawing.Color.Red
-        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(348, 284)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(256, 51)
-        Me.Button3.TabIndex = 14
-        Me.Button3.Text = "Complete Flight"
-        Me.Button3.UseVisualStyleBackColor = False
-        '
-        'Button4
-        '
-        Me.Button4.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(610, 284)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(198, 51)
-        Me.Button4.TabIndex = 15
-        Me.Button4.Text = "pause"
-        Me.Button4.UseVisualStyleBackColor = False
+        Me.PauseFlight.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.PauseFlight.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PauseFlight.Location = New System.Drawing.Point(610, 284)
+        Me.PauseFlight.Name = "PauseFlight"
+        Me.PauseFlight.Size = New System.Drawing.Size(198, 51)
+        Me.PauseFlight.TabIndex = 15
+        Me.PauseFlight.Text = "pause"
+        Me.PauseFlight.UseVisualStyleBackColor = False
         '
         'Label71
         '
@@ -198,7 +139,18 @@ Partial Class acars
         '
         'Timer1
         '
-        Me.Timer1.Interval = 10000
+        Me.Timer1.Interval = 1
+        '
+        'lblTimer
+        '
+        Me.lblTimer.AutoSize = True
+        Me.lblTimer.BackColor = System.Drawing.Color.DarkSeaGreen
+        Me.lblTimer.Font = New System.Drawing.Font("Microsoft Sans Serif", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTimer.Location = New System.Drawing.Point(335, 181)
+        Me.lblTimer.Name = "lblTimer"
+        Me.lblTimer.Size = New System.Drawing.Size(176, 73)
+        Me.lblTimer.TabIndex = 17
+        Me.lblTimer.Text = "0:0:0"
         '
         'acars
         '
@@ -206,15 +158,11 @@ Partial Class acars
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Gray
         Me.ClientSize = New System.Drawing.Size(813, 338)
+        Me.Controls.Add(Me.lblTimer)
         Me.Controls.Add(Me.Label71)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label80)
-        Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.Label50)
-        Me.Controls.Add(Me.Label39)
+        Me.Controls.Add(Me.PauseFlight)
+        Me.Controls.Add(Me.CompFlight)
+        Me.Controls.Add(Me.StFlight)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Label2)
@@ -236,14 +184,10 @@ Partial Class acars
     Friend WithEvents Label2 As Label
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents Button1 As Button
-    Friend WithEvents Label39 As Label
-    Friend WithEvents Label50 As Label
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Label80 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
+    Friend WithEvents StFlight As Button
+    Friend WithEvents CompFlight As Button
+    Friend WithEvents PauseFlight As Button
     Friend WithEvents Label71 As Label
     Friend WithEvents Timer1 As Timer
+    Friend WithEvents lblTimer As Label
 End Class

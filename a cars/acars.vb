@@ -3,6 +3,8 @@ Public Class acars
     Dim provider As String
     Dim dataFile As String
     Dim connString As String
+    Dim time As New DateTime
+
     Dim conn As OleDbConnection = New OleDbConnection
     Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
         provider = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source ="
@@ -33,18 +35,30 @@ Public Class acars
 
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        Button2.Enabled = True
-        Button3.Enabled = True
-        Button4.Enabled = True
+    Private Sub StFlight_Click(sender As Object, e As System.EventArgs) Handles StFlight.Click
+        If Timer1.Enabled = True Then
+            Timer1.Stop()
 
+        Else
+            time = DateTime.Now
+            Timer1.Start()
 
+        End If
 
 
     End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+    Private Sub timer1_tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
+        Dim difference As TimeSpan = DateTime.Now.Subtract(time)
+        lblTimer.Text = difference.Hours.ToString & ":" &
+            difference.Minutes.ToString & ":" &
+            difference.Seconds.ToString
+    End Sub
+
+    Private Sub compflight_Click(sender As Object, e As EventArgs) Handles CompFlight.Click
         Timer1.Stop()
 
     End Sub
+
+
 End Class
