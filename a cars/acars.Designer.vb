@@ -83,7 +83,7 @@ Partial Class acars
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Location = New System.Drawing.Point(0, 123)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(809, 57)
+        Me.DataGridView1.Size = New System.Drawing.Size(819, 57)
         Me.DataGridView1.TabIndex = 4
         '
         'Button1
@@ -177,12 +177,12 @@ Partial Class acars
         'Button4
         '
         Me.Button4.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(611, 284)
+        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.Location = New System.Drawing.Point(610, 284)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(198, 51)
         Me.Button4.TabIndex = 15
-        Me.Button4.Text = "save my Hours "
+        Me.Button4.Text = "pause"
         Me.Button4.UseVisualStyleBackColor = False
         '
         'Label71
@@ -195,6 +195,10 @@ Partial Class acars
         Me.Label71.Size = New System.Drawing.Size(555, 20)
         Me.Label71.TabIndex = 16
         Me.Label71.Text = "Please put parking brake onAnd cut off your engine(s) before starting ACARS"
+        '
+        'Timer1
+        '
+        Me.Timer1.Interval = 10000
         '
         'acars
         '

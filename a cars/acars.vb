@@ -32,4 +32,19 @@ Public Class acars
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
     End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Button2.Enabled = True
+        Button3.Enabled = True
+        Button4.Enabled = True
+
+
+
+
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Timer1.Stop()
+
+    End Sub
 End Class
