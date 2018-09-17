@@ -131,7 +131,7 @@ Partial Class acars
         Me.Label71.AutoSize = True
         Me.Label71.BackColor = System.Drawing.Color.Red
         Me.Label71.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label71.Location = New System.Drawing.Point(120, 254)
+        Me.Label71.Location = New System.Drawing.Point(119, 261)
         Me.Label71.Name = "Label71"
         Me.Label71.Size = New System.Drawing.Size(555, 20)
         Me.Label71.TabIndex = 16
@@ -146,7 +146,7 @@ Partial Class acars
         Me.lblTimer.AutoSize = True
         Me.lblTimer.BackColor = System.Drawing.Color.DarkSeaGreen
         Me.lblTimer.Font = New System.Drawing.Font("Microsoft Sans Serif", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTimer.Location = New System.Drawing.Point(335, 181)
+        Me.lblTimer.Location = New System.Drawing.Point(335, 188)
         Me.lblTimer.Name = "lblTimer"
         Me.lblTimer.Size = New System.Drawing.Size(176, 73)
         Me.lblTimer.TabIndex = 17
