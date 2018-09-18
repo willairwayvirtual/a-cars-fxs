@@ -35,13 +35,14 @@ Partial Class acars
         Me.Label71 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.lblTimer = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(302, 13)
+        Me.TextBox1.Location = New System.Drawing.Point(302, 2)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(230, 38)
         Me.TextBox1.TabIndex = 0
@@ -49,16 +50,16 @@ Partial Class acars
         'TextBox2
         '
         Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(302, 79)
+        Me.TextBox2.Location = New System.Drawing.Point(296, 66)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(230, 38)
+        Me.TextBox2.Size = New System.Drawing.Size(246, 38)
         Me.TextBox2.TabIndex = 1
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(178, 9)
+        Me.Label1.Location = New System.Drawing.Point(178, 4)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(118, 33)
         Me.Label1.TabIndex = 2
@@ -68,7 +69,7 @@ Partial Class acars
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(184, 79)
+        Me.Label2.Location = New System.Drawing.Point(178, 66)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(112, 33)
         Me.Label2.TabIndex = 3
@@ -77,18 +78,18 @@ Partial Class acars
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(0, 123)
+        Me.DataGridView1.Location = New System.Drawing.Point(-11, 121)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(819, 57)
+        Me.DataGridView1.Size = New System.Drawing.Size(819, 84)
         Me.DataGridView1.TabIndex = 4
         '
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.Lime
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(559, 0)
+        Me.Button1.Location = New System.Drawing.Point(548, 0)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(260, 117)
+        Me.Button1.Size = New System.Drawing.Size(271, 79)
         Me.Button1.TabIndex = 5
         Me.Button1.Text = "go"
         Me.Button1.UseVisualStyleBackColor = False
@@ -97,7 +98,7 @@ Partial Class acars
         '
         Me.StFlight.BackColor = System.Drawing.Color.LightSalmon
         Me.StFlight.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.StFlight.Location = New System.Drawing.Point(0, 284)
+        Me.StFlight.Location = New System.Drawing.Point(0, 317)
         Me.StFlight.Name = "StFlight"
         Me.StFlight.Size = New System.Drawing.Size(343, 51)
         Me.StFlight.TabIndex = 13
@@ -108,7 +109,7 @@ Partial Class acars
         '
         Me.CompFlight.BackColor = System.Drawing.Color.Red
         Me.CompFlight.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CompFlight.Location = New System.Drawing.Point(348, 284)
+        Me.CompFlight.Location = New System.Drawing.Point(348, 317)
         Me.CompFlight.Name = "CompFlight"
         Me.CompFlight.Size = New System.Drawing.Size(256, 51)
         Me.CompFlight.TabIndex = 14
@@ -119,7 +120,7 @@ Partial Class acars
         '
         Me.PauseFlight.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.PauseFlight.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.PauseFlight.Location = New System.Drawing.Point(610, 284)
+        Me.PauseFlight.Location = New System.Drawing.Point(610, 317)
         Me.PauseFlight.Name = "PauseFlight"
         Me.PauseFlight.Size = New System.Drawing.Size(198, 51)
         Me.PauseFlight.TabIndex = 15
@@ -131,7 +132,7 @@ Partial Class acars
         Me.Label71.AutoSize = True
         Me.Label71.BackColor = System.Drawing.Color.Red
         Me.Label71.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label71.Location = New System.Drawing.Point(119, 261)
+        Me.Label71.Location = New System.Drawing.Point(122, 281)
         Me.Label71.Name = "Label71"
         Me.Label71.Size = New System.Drawing.Size(555, 20)
         Me.Label71.TabIndex = 16
@@ -146,18 +147,30 @@ Partial Class acars
         Me.lblTimer.AutoSize = True
         Me.lblTimer.BackColor = System.Drawing.Color.DarkSeaGreen
         Me.lblTimer.Font = New System.Drawing.Font("Microsoft Sans Serif", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTimer.Location = New System.Drawing.Point(335, 188)
+        Me.lblTimer.Location = New System.Drawing.Point(335, 208)
         Me.lblTimer.Name = "lblTimer"
         Me.lblTimer.Size = New System.Drawing.Size(176, 73)
         Me.lblTimer.TabIndex = 17
         Me.lblTimer.Text = "0:0:0"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(378, 39)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(27, 24)
+        Me.Label4.TabIndex = 19
+        Me.Label4.Text = "or"
         '
         'acars
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Gray
-        Me.ClientSize = New System.Drawing.Size(813, 338)
+        Me.ClientSize = New System.Drawing.Size(813, 380)
+        Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.lblTimer)
         Me.Controls.Add(Me.Label71)
         Me.Controls.Add(Me.PauseFlight)
@@ -190,4 +203,5 @@ Partial Class acars
     Friend WithEvents Label71 As Label
     Friend WithEvents Timer1 As Timer
     Friend WithEvents lblTimer As Label
+    Friend WithEvents Label4 As Label
 End Class
