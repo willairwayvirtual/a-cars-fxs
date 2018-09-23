@@ -7,6 +7,11 @@ Public Class acars
 
     Dim conn As OleDbConnection = New OleDbConnection
     Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
+
+
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         provider = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source ="
         'Change the following to your access database location
         dataFile = "C:\VisStudioProj\wav login Desktop App23\wav login Desktop App23\BIN\DEBUG\willairwayvirtualDatabase.accdb"
@@ -24,15 +29,10 @@ Public Class acars
         ds.Tables.Add(dt)
         Dim da As New OleDbDataAdapter
 
-        da = New OleDbDataAdapter("Select * froma acara where fltnum Like '%" & TextBox1.Text & "%'", conn)
+        da = New OleDbDataAdapter("Select * from acars where fltnum Like '%" & TextBox1.Text & "%'", conn)
         da.Fill(dt)
 
         DataGridView1.DataSource = dt.DefaultView
-
-    End Sub
-
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-
     End Sub
 
     Private Sub StFlight_Click(sender As Object, e As System.EventArgs) Handles StFlight.Click
