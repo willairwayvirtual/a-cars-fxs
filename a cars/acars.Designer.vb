@@ -36,6 +36,7 @@ Partial Class acars
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.lblTimer = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.Button2 = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -78,9 +79,9 @@ Partial Class acars
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(-11, 121)
+        Me.DataGridView1.Location = New System.Drawing.Point(0, 134)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(819, 84)
+        Me.DataGridView1.Size = New System.Drawing.Size(831, 84)
         Me.DataGridView1.TabIndex = 4
         '
         'Button1
@@ -124,7 +125,7 @@ Partial Class acars
         Me.PauseFlight.Name = "PauseFlight"
         Me.PauseFlight.Size = New System.Drawing.Size(198, 51)
         Me.PauseFlight.TabIndex = 15
-        Me.PauseFlight.Text = "pause"
+        Me.PauseFlight.Text = "reset"
         Me.PauseFlight.UseVisualStyleBackColor = False
         '
         'Label71
@@ -147,7 +148,7 @@ Partial Class acars
         Me.lblTimer.AutoSize = True
         Me.lblTimer.BackColor = System.Drawing.Color.DarkSeaGreen
         Me.lblTimer.Font = New System.Drawing.Font("Microsoft Sans Serif", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTimer.Location = New System.Drawing.Point(335, 208)
+        Me.lblTimer.Location = New System.Drawing.Point(335, 221)
         Me.lblTimer.Name = "lblTimer"
         Me.lblTimer.Size = New System.Drawing.Size(176, 73)
         Me.lblTimer.TabIndex = 17
@@ -164,12 +165,24 @@ Partial Class acars
         Me.Label4.TabIndex = 19
         Me.Label4.Text = "or"
         '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Location = New System.Drawing.Point(548, 75)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(271, 53)
+        Me.Button2.TabIndex = 20
+        Me.Button2.Text = "save myHours"
+        Me.Button2.UseVisualStyleBackColor = False
+        '
         'acars
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Gray
-        Me.ClientSize = New System.Drawing.Size(813, 380)
+        Me.ClientSize = New System.Drawing.Size(818, 374)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.lblTimer)
         Me.Controls.Add(Me.Label71)
@@ -204,4 +217,5 @@ Partial Class acars
     Friend WithEvents Timer1 As Timer
     Friend WithEvents lblTimer As Label
     Friend WithEvents Label4 As Label
+    Friend WithEvents Button2 As Button
 End Class
