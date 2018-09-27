@@ -61,5 +61,29 @@ Public Class acars
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        conn.Close()
+        provider = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source ="
+        'Change the following to your access database location
+        dataFile = "C:\VisStudioProj\wav login Desktop App23\wav login Desktop App23\BIN\DEBUG\willairwayvirtualDatabase.accdb"
+        connString = provider & dataFile
+        conn.ConnectionString = connString
+        'check status of connection string
+        If conn.State = ConnectionState.Closed Then
+            conn.Open()
+        Else
+            conn.Close()
+        End If
+        Dim savenew As String = "INSERT INTO [acars_log]  (Fltnum,lblTimer) values('" &
+            TextBox1.Text & "','" &
+           lblTimer.Text & "');"
+
+        Dim cmd As New OleDbCommand
+
+        With cmd
+            .CommandText = savenew
+            .Connection = conn
+            .ExecuteNonQuery()
+        End With
+        MessageBox.Show("Plan Loaded Have a good flight")
     End Sub
 End Class

@@ -45,7 +45,7 @@ Partial Class acars
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox1.Location = New System.Drawing.Point(302, 2)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(230, 38)
+        Me.TextBox1.Size = New System.Drawing.Size(240, 38)
         Me.TextBox1.TabIndex = 0
         '
         'TextBox2
@@ -70,7 +70,7 @@ Partial Class acars
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(178, 66)
+        Me.Label2.Location = New System.Drawing.Point(184, 66)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(112, 33)
         Me.Label2.TabIndex = 3
@@ -158,10 +158,10 @@ Partial Class acars
         '
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(378, 39)
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(221, 37)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(27, 24)
+        Me.Label4.Size = New System.Drawing.Size(35, 29)
         Me.Label4.TabIndex = 19
         Me.Label4.Text = "or"
         '
@@ -181,7 +181,7 @@ Partial Class acars
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Gray
-        Me.ClientSize = New System.Drawing.Size(818, 374)
+        Me.ClientSize = New System.Drawing.Size(808, 369)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.lblTimer)
